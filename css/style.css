@@ -30,14 +30,34 @@ header .logo img{
     height: 60px;
     margin-top: 10px;
 }
-header .menu{
+.menu_wrap .menu{
+    font-size: 0;
     float: right;
+    padding-top: 20px;
 }
-header .menu li{
+.menu_wrap .menu > li{
     display: inline-block;
-    margin-left: 30px;
-    margin-top: 28px;
+    width: 100px;
+    background: #fff;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: top;
 }
+.menu_wrap .menu a{
+    display: block;
+    padding: 10px 0;
+}
+.menu_wrap .menu a:hover{
+    background: #235cb2;
+    color: #fff;
+}
+.menu_wrap .menu > li:hover > .sub_m{
+    display: block;
+}
+.menu_wrap .sub_m{
+    display: none;
+}
+
 #idx_top{
     width: 100%;
     padding: 150px 0;
